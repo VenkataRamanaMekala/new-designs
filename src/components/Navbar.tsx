@@ -22,12 +22,19 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-      scrolled ? "bg-background/95 backdrop-blur-md shadow-lg border-b border-border/50" : "bg-transparent"
-    }`}>
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        scrolled
+          ? "bg-background/95 backdrop-blur-md shadow-lg border-b border-border/50"
+          : "bg-transparent"
+      }`}
+    >
       <div className="container mx-auto flex items-center justify-between py-4 px-4">
-        <a href="#home" className="font-display text-2xl font-bold text-primary">
-          R.M <span className="text-accent">Embroidery</span>
+        <a
+          href="#home"
+          className="font-display text-2xl font-bold text-primary"
+        >
+          Lara <span className="text-accent">Embroidery</span>
         </a>
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
@@ -35,7 +42,9 @@ const Navbar = () => {
               key={link.href}
               href={link.href}
               className={`font-body text-sm tracking-wide uppercase transition-colors duration-300 ${
-                scrolled ? "text-foreground/80 hover:text-primary" : "text-primary-foreground/80 hover:text-accent"
+                scrolled
+                  ? "text-foreground/80 hover:text-primary"
+                  : "text-primary-foreground/80 hover:text-accent"
               }`}
             >
               {link.label}

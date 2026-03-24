@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-maroon-deep py-10 px-4">
       <div className="container mx-auto text-center">
         <p className="font-display text-2xl font-bold text-primary-foreground mb-2">
-          R.M <span className="text-gold">Embroidery Designs</span>
+          Lara <span className="text-gold">Embroidery Designs</span>
         </p>
         <p className="font-elegant text-primary-foreground/70 italic mb-6">
           Elegant Embroidery & Perfect Stitching for Every Occasion
