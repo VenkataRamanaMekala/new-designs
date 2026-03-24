@@ -38,7 +38,7 @@ const AboutSection = () => {
             <h2 className="section-heading text-left">About Us</h2>
             <div className="w-24 h-1 bg-accent rounded-full mb-6" />
             <p className="font-body text-muted-foreground leading-relaxed mb-4">
-              <strong className="text-foreground">R.M Embroidery Designs</strong>, established in 2024, is dedicated to delivering elegant embroidery and professional stitching services.
+              <strong className="text-foreground">Lara Embroidery Designs</strong>, established in 2024, is dedicated to delivering elegant embroidery and professional stitching services.
             </p>
             <p className="font-body text-muted-foreground leading-relaxed mb-4">
               Owned and managed by <strong className="text-foreground">Lalitha</strong>, we focus on creating customized designs that reflect beauty, tradition, and modern style.

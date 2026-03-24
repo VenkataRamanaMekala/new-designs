@@ -12,7 +12,8 @@ const Footer = () => {
         </p>
         <div className="w-16 h-px bg-gold/40 mx-auto mb-6" />
         <p className="font-body text-sm text-primary-foreground/50 flex items-center justify-center gap-1">
-          Made with <Heart size={14} className="text-gold" /> © 2024 R.M Embroidery Designs. All rights reserved.
+          Made with <Heart size={14} className="text-gold" /> © 2024 Lara
+          Embroidery Designs. All rights reserved.
         </p>
       </div>
     </footer>
