@@ -109,7 +109,7 @@ const ContactSection = () => {
                     href="tel:+918096317908"
                     className="font-body font-bold text-foreground hover:text-primary transition-colors"
                   >
-                    +91 93902 33610
+                    +91 79934 31587
                   </a>
                 </div>
               </div>
